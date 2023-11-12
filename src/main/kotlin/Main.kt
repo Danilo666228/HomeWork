@@ -56,3 +56,37 @@
 //
 //    println("Число $number в двоичной системе: $result")
 //}
+//Задача 5
+//fun main() {
+//    println("Введите целое число n:")
+//    val n = readLine()?.toInt() ?: return
+//
+//    println("Введите основание степени x:")
+//    val x = readLine()?.toInt() ?: return
+//
+//    var y = 0
+//    var stepen = 1
+//    while (stepen < n) {
+//        stepen *= x
+//        y++
+//    }
+//
+//    if (stepen == n) {
+//        println("Целочисленный показатель y = $y")
+//    } else {
+//        println("Целочисленный показатель не существует")
+//    }
+//}
+//Задание 6
+//fun main() {
+//    println("Введите первое число:")
+//    val num1 = readLine()!!.toInt()
+//    println("Введите второе число:")
+//    val num2 = readLine()!!.toInt()
+//
+//    if (num1 != num2 && (num1 % 2 != 0 || num2 % 2 != 0)) {
+//        println("Можно создать нечетное число")
+//    } else {
+//        println("Создать нечетное число невозможно")
+//    }
+//}
