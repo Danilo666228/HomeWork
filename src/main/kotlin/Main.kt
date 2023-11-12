@@ -58,12 +58,10 @@ fun main() {
         }
 
     }
-    if(count > 1)
-    {
-        result+="${input[input.length-1]}$count"
-    }
-    else{
-        result+="${input[input.length-1]}"
+    if (count > 1) {
+        result += "${input[input.length - 1]}$count"
+    } else {
+        result += "${input[input.length - 1]}"
     }
     println(result)
 }
