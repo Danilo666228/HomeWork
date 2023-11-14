@@ -1,4 +1,3 @@
-import kotlin.concurrent.thread
 
 //Тема 1: Основные задачи
 //Задача 1
